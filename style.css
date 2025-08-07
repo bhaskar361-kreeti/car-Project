@@ -6,16 +6,20 @@ html {
     color: white;
     height: 100%;
     overflow-x: hidden;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Poppins', 'Montserrat', 'Open Sans', sans-serif;
 }
 
-.bg-image {
+.header {
     width: 100%;
-    height: 870px;
+    height: 940px;
     background-color: red;
-    background-image: url('/home/bhaskar/Documents/HTML_CSS_PART3/Car/assets/banner.jpeg');
+    background-image: url('./Car/assets/banner.jpeg');
     background-size: cover;
     background-position: center;
+}
+
+main{
+    width:100%;
 }
 
 .logo {
@@ -29,23 +33,34 @@ html {
 
 .navbar {
     width: 100%;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 50px;
-    padding: 10px;
+    /* padding: 10px; */
     margin-bottom: 20px;
-    /* background-color: yellow; */
-
+    /* background-color: blue; */
 }
 
-.navbar label {
+.navbar ul{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+    list-style: none;
+    /* background-color: yellow; */
+}
+
+.navbar li {
     font-size: 33px;
     font-weight: 900;
+    cursor: pointer;
 }
 
-.navbar label:hover {
-    color: orange;
+.navbar li:hover {
+    color: 	#ff7b00;
 }
 
 .first-text {
@@ -134,7 +149,7 @@ html {
 
 .box .fa-users {
     font-size: 50px;
-    background-color: rgb(236, 140, 30);
+    background-color: 	#ff7b00;
     border-radius: 50%;
     padding: 10px 5px;
 }
@@ -153,8 +168,8 @@ html {
 .box button {
     padding: 22px 45px;
     background-color: black;
-    color: rgb(236, 140, 30);
-    border: 2px solid rgb(236, 140, 30);
+    color: 	#ff7b00;
+    border: 2px solid 	#ff7b00;
     border-radius: 35px;
     font-weight: 800;
     font-size: 20px;
@@ -164,7 +179,7 @@ html {
 .fa-mobile-screen,
 .fa-lightbulb {
     font-size: 50px;
-    background-color: rgb(236, 140, 30);
+    background-color: 	#ff7b00;
     border-radius: 50%;
     padding: 10px 15px;
 }
@@ -196,7 +211,7 @@ html {
     height: 600px;
     font-size: 20px;
     padding-left: 15px;
-    background-color: rgb(241, 137, 18);
+    background-color: 	#ff7b00;
 }
 
 .left h2 {
@@ -253,7 +268,7 @@ html {
 }
 
 .para2 {
-    background-color: rgb(241, 137, 18);
+    background-color: 	#ff7b00;
     padding: 15px;
 }
 
@@ -306,7 +321,7 @@ html {
 }
 
 .part6 .part6_para_icon {
-    background-color: rgb(241, 137, 18);
+    background-color: 	#ff7b00;
     font-weight: 900;
     padding: 10px;
     width: 62%;
@@ -430,8 +445,8 @@ html {
 .sub {
     padding: 22px 45px;
     background-color: black;
-    color: rgb(236, 140, 30);
-    border: 2px solid rgb(236, 140, 30);
+    color: 	#ff7b00;
+    border: 2px solid 	#ff7b00;
     border-radius: 35px;
     font-weight: 800;
     font-size: 20px;
@@ -445,7 +460,7 @@ html {
     font-size: 20px;
 }
 
-.part9 {
+.footer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -455,17 +470,27 @@ html {
 
 
 /* for mobile */
-@media (max-width: 1300px) {
-    .bg-image {
+@media (max-width: 425px) {
+    .header {
         height: 500px;
     }
 
-    .logo {
-        font-size: 20px;
+    .logo{
+        /* background-color: yellow; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 5px;
     }
 
-    .navbar label {
-        font-size: 17px;
+   
+
+    .navbar{
+        height: auto;
+    }
+
+    .navbar ul li {
+        font-size: 10px;
         font-weight: 900;
     }
 
@@ -481,7 +506,8 @@ html {
     }
 
     .first-text {
-        margin-top: 100px;
+        /* background-color: yellow; */
+        margin-top: 10px;
     }
 
     .first-text h1 {
@@ -497,22 +523,27 @@ html {
     }
 
     .part2 {
+        /* background-color: yellow; */
         height: 400px;
     }
 
+    .second-text{
+        height: 120px;
+    }
+
     .second-text h2 {
-        font-size: 20px;
+        font-size: 13px;
         font-weight: 800;
     }
 
     .second-text p {
-        font-size: 10px;
+        font-size: 7px;
     }
 
     .fa-mobile-screen,
     .fa-lightbulb {
         font-size: 20px;
-        background-color: rgb(236, 140, 30);
+        background-color: 	#ff7b00;
         border-radius: 50%;
         padding: 10px 13px;
     }
@@ -523,7 +554,7 @@ html {
     }
 
     .box h1 {
-        font-size: 8px;
+        font-size: 6px;
     }
 
     .box p {
@@ -531,10 +562,10 @@ html {
     }
 
     .box button {
-        padding: 3px 40px;
+        padding: 3px 20px;
         background-color: black;
-        color: rgb(236, 140, 30);
-        border: 2px solid rgb(236, 140, 30);
+        color: 	#ff7b00;
+        border: 2px solid 	#ff7b00;
         border-radius: 35px;
         font-weight: 600;
         font-size: 8px;
@@ -566,7 +597,7 @@ html {
         width: 35%;
         height: 300px;
         padding-left: 15px;
-        background-color: rgb(241, 137, 18);
+        background-color: 	#ff7b00;
     }
 
     .left h2 {
@@ -610,7 +641,7 @@ html {
     }
 
     .para2 {
-        background-color: rgb(241, 137, 18);
+        background-color: 	#ff7b00;
         padding: 15px;
     }
 
@@ -718,8 +749,8 @@ html {
 .sub {
     padding: 10px 17px;
     background-color: black;
-    color: rgb(236, 140, 30);
-    border: 2px solid rgb(236, 140, 30);
+    color: 	#ff7b00;
+    border: 2px solid 	#ff7b00;
     border-radius: 35px;
     font-weight: 800;
     font-size: 10px;
@@ -734,7 +765,7 @@ html {
     margin-left: 10px;
     font-size: 12px;
 }
-.part9 {
+.footer {
     display: flex;
     justify-content: center;
     align-items: center;
