@@ -455,22 +455,23 @@ main {
     font-size: 20px;
     margin-top: 5px;
 }
-.part8-right .social-media {
-        width: 100%;
-        /* margin-top: 20px; */
-        gap: 20px;
-        font-size: 22px;
-    }
 
-    .part8-right .social-media ul {
-        width: 10%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        list-style: none;
-        gap: 10px;
-        margin-right: 25px
-    }
+.part8-right .social-media {
+    width: 100%;
+    /* margin-top: 20px; */
+    gap: 20px;
+    font-size: 22px;
+}
+
+.part8-right .social-media ul {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 10px;
+    margin-right: 25px
+}
 
 .footer {
     display: flex;
@@ -487,8 +488,8 @@ main {
         height: 300px;
     }
 
-    .main{
-        gap:25px;
+    .main {
+        gap: 25px;
     }
 
     .logo {
@@ -570,7 +571,7 @@ main {
         height: 120px;
     }
 
-    .second-text{
+    .second-text {
         height: 120px;
     }
 
@@ -886,13 +887,13 @@ main {
 }
 
 /* media query for large screen */
-@media (min-width: 426px) and (max-width: 1024px){
+@media (min-width: 426px) and (max-width: 1024px) {
     .header {
         height: 300px;
     }
 
-    .main{
-        gap:25px;
+    .main {
+        gap: 25px;
     }
 
     .logo {
@@ -941,8 +942,8 @@ main {
         margin-top: 10px;
         height: 80%
     }
-    
-    .first-text .second-para{
+
+    .first-text .second-para {
         width: 80%;
     }
 
@@ -957,9 +958,10 @@ main {
     .first-text .second-para {
         line-height: 14px;
     }
+
     .part2 {
         /* background-color: yellow; */
-        height: 800px;
+        height: 700px;
     }
 
     .part2 .boxes {
@@ -972,6 +974,10 @@ main {
     .part2 .boxes .box {
         width: 80%;
     }
+
+     .part2 .boxes .box i{
+        
+     }
 
     .second-text {
         height: 120px;
@@ -1022,6 +1028,7 @@ main {
         font-size: 8px;
         margin-top: 5px;
     }
+
     .part3 {
         height: 400px;
         /* background-color: yellow; */
@@ -1065,6 +1072,7 @@ main {
         font-weight: 900;
         font-size: 12px;
     }
+
     .part4 {
         width: 100%;
         gap: 20px;
@@ -1159,5 +1167,102 @@ main {
 
     .part6 .questions {
         width: 80%
+    }
+
+    .part7 {
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        /* background-color: yellow; */
+        margin-top: 100px;
+    }
+
+    .part7 .black-car {
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .part7 .black-car img {
+        width: 100%;
+        height: 220px;
+        object-fit: cover;
+    }
+
+    .part7 h1 {
+        font-size: 30px;
+        text-align: right;
+        margin-right: 40px;
+    }
+
+    .part8 {
+        width: 100%;
+        height: 420px;
+        margin-top: 30px;
+    }
+
+    .part8 .part8-left {
+        text-align: left;
+        width: 40%
+    }
+
+    .part8-left p {
+        font-size: 15px;
+        padding: 5px;
+    }
+
+    .part8-left h1 {
+        font-size: 10px;
+        font-weight: 900;
+        margin: 5px 0;
+    }
+
+    .part8 .part8-right {
+        text-align: center;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .part8-right .form {
+        width: 100%
+    }
+
+    .part8-right .form input {
+        width: 90%;
+        padding: 3px;
+        font-size: 12px;
+        background-color: black;
+        color: gray;
+        border-bottom: 2px solid gray;
+        border-radius: 2px;
+    }
+
+    .part8-right .form .message {
+        height: 50px
+    }
+
+    .sub {
+        padding: 10px 17px;
+        background-color: black;
+        color: #ff7b00;
+        border: 2px solid #ff7b00;
+        border-radius: 35px;
+        font-weight: 800;
+        font-size: 10px;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
     }
 }
