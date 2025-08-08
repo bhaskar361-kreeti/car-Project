@@ -631,7 +631,7 @@ main {
 
 
     .left {
-        width: 95%;
+        width: 85%;
         height: 30%;
         /* background-color: yellow; */
         font-size: 10px;
@@ -643,7 +643,7 @@ main {
         justify-content: center;
         flex-direction: column;
         text-align: left;
-        width: 90%;
+        width: 85%;
         height: 50%;
         padding-left: 15px;
         background-color: #ff7b00;
@@ -887,7 +887,7 @@ main {
 }
 
 /* media query for large screen */
-@media (min-width: 426px) and (max-width: 1024px) {
+@media (min-width: 426px) and (max-width: 768px) {
     .header {
         height: 300px;
     }
@@ -975,10 +975,6 @@ main {
         width: 80%;
     }
 
-     .part2 .boxes .box i{
-        
-     }
-
     .second-text {
         height: 120px;
     }
@@ -1011,11 +1007,11 @@ main {
     }
 
     .box h1 {
-        font-size: 8px;
+        font-size: 10px;
     }
 
     .box p {
-        font-size: 10px;
+        font-size: 14px;
     }
 
     .box button {
@@ -1181,10 +1177,11 @@ main {
     }
 
     .part7 .black-car {
-        width: 40%;
+        width: 70%;
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-left: 20px;
     }
 
     .part7 .black-car img {
@@ -1265,4 +1262,381 @@ main {
         align-items: center;
         font-size: 12px;
     }
+}
+    @media (min-width: 769px) and (max-width: 1024px){
+        .header {
+        height: 300px;
+    }
+
+    .main {
+        gap: 25px;
+    }
+
+    .logo {
+        height: 100px;
+        /* background-color: yellow; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 5px;
+    }
+
+    .logo .image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo .image img {
+        width: 50%;
+    }
+
+
+
+    .navbar {
+        height: auto;
+    }
+
+    .navbar ul li {
+        font-size: 18px;
+        font-weight: 900;
+    }
+
+    .first-text h1 {
+        font-weight: 900;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .bg-image {
+        width: 100%;
+        height: 500px;
+    }
+
+    .first-text {
+        /* background-color: yellow; */
+        margin-top: 10px;
+        height: 80%
+    }
+
+    .first-text .second-para {
+        width: 80%;
+    }
+
+    .first-text h1 {
+        font-size: 25px;
+    }
+
+    .first-text p {
+        font-size: 12px;
+    }
+
+    .first-text .second-para {
+        line-height: 14px;
+    }
+
+    .part2 {
+        /* background-color: yellow; */
+        height: 700px;
+    }
+
+    .part2 .boxes {
+        width: 100%;
+        height: 150px;
+        gap: 30px;
+        flex-direction: column
+    }
+
+    .part2 .boxes .box {
+        width: 70%;
+    }
+
+    .second-text {
+        height: 120px;
+    }
+
+    .second-text h2 {
+        font-size: 25px;
+        font-weight: 800;
+    }
+
+    .second-text p {
+        font-size: 10px;
+    }
+
+    .box {
+        padding-bottom: 20px;
+        /* background-color: brown; */
+    }
+
+    .fa-mobile-screen,
+    .fa-lightbulb {
+        font-size: 20px;
+        background-color: #ff7b00;
+        border-radius: 50%;
+        padding: 10px 13px;
+    }
+
+    .box .fa-users {
+        font-size: 20px;
+        padding: 10px 8px;
+    }
+
+    .box h1 {
+        font-size: 10px;
+    }
+
+    .box p {
+        font-size: 14px;
+    }
+
+    .box button {
+        padding: 3px 8px;
+        background-color: black;
+        color: #ff7b00;
+        border: 2px solid #ff7b00;
+        border-radius: 35px;
+        font-weight: 600;
+        font-size: 4px;
+        margin-top: 5px;
+    }
+
+    .part3 {
+        height: 400px;
+        /* background-color: yellow; */
+        /* flex-direction: column; */
+    }
+
+
+    .left {
+        width: 40%;
+        height: 60%;
+        /* background-color: yellow; */
+        font-size: 12px;
+    }
+
+    .right {
+        /* margin-top: 20px; */
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: left;
+        width: 40%;
+        height: 60%;
+        padding-left: 15px;
+        background-color: #ff7b00;
+    }
+
+    .left h2 {
+        font-size: 12px;
+    }
+
+    .left p {
+        font-size: 10px;
+    }
+
+    .right p {
+        font-size: 10px;
+        /* line-height: 20px; */
+    }
+
+    .right .right-heading {
+        font-weight: 900;
+        font-size: 12px;
+    }
+
+    .part4 {
+        width: 100%;
+        gap: 20px;
+    }
+
+    .part4-images {
+        width: 30%;
+        height: 180px;
+        overflow: hidden;
+        object-fit: cover;
+    }
+
+    .part5 {
+        width: 100%;
+        margin-top: 20px;
+        height: 500px;
+        /* flex-direction: column-reverse */
+    }
+
+    .part5-left {
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: brown; */
+        flex-direction: column;
+    }
+
+    .para2 {
+        background-color: #ff7b00;
+        padding: 15px;
+    }
+
+    .para1 {
+        font-size: 15px;
+        text-decoration: underline;
+    }
+
+    .part5-left h1 {
+        font-size: 18px;
+        font-weight: 900;
+        margin-left: 20px;
+    }
+
+    .part5-left p {
+        font-size: 12px;
+        margin-left: 12px;
+        line-height: 1;
+    }
+
+    .part5-right {
+        height: 300px;
+        width: 40%;
+        /* overflow: hidden; */
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    .part5-right img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .part6 h1 {
+        font-weight: 900;
+        font-size: 40px;
+    }
+
+    .part6 p {
+        font-size: 12px;
+        text-align: left;
+    }
+
+    .part6 .part6_para_icon {
+        width: 80%
+    }
+
+    .part6 .paragraph {
+        font-size: 10px;
+        margin-top: 10px;
+        padding: 10px;
+        width: 80%;
+    }
+
+    .part6 i {
+        font-size: 10px;
+    }
+
+    .part6 .options {
+        width: 100%
+    }
+
+    .part6 .questions {
+        width: 80%
+    }
+
+    .part7 {
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        /* background-color: yellow; */
+        margin-top: 100px;
+    }
+
+    .part7 .black-car {
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 20px;
+    }
+
+    .part7 .black-car img {
+        width: 100%;
+        height: 220px;
+        object-fit: cover;
+    }
+
+    .part7 h1 {
+        font-size: 30px;
+        text-align: right;
+        margin-right: 40px;
+    }
+
+    .part8 {
+        width: 100%;
+        height: 420px;
+        margin-top: 30px;
+    }
+
+    .part8 .part8-left {
+        text-align: left;
+        width: 40%
+    }
+
+    .part8-left p {
+        font-size: 15px;
+        padding: 5px;
+    }
+
+    .part8-left h1 {
+        font-size: 10px;
+        font-weight: 900;
+        margin: 5px 0;
+    }
+
+    .part8 .part8-right {
+        text-align: center;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .part8-right .form {
+        width: 100%
+    }
+
+    .part8-right .form input {
+        width: 90%;
+        padding: 3px;
+        font-size: 12px;
+        background-color: black;
+        color: gray;
+        border-bottom: 2px solid gray;
+        border-radius: 2px;
+    }
+
+    .part8-right .form .message {
+        height: 50px
+    }
+
+    .sub {
+        padding: 10px 17px;
+        background-color: black;
+        color: #ff7b00;
+        border: 2px solid #ff7b00;
+        border-radius: 35px;
+        font-weight: 800;
+        font-size: 10px;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+    }
+
 }
